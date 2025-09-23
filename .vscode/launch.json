@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "attach",
+      "port": 12234,
+      "restart": {
+        "delay": 2000,
+        "maxAttempts": 8
+      },
+      "sourceMaps": true,
+      "smartStep": true
+    }
+  ]
+}

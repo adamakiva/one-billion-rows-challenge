@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Exclude directories from above rule
+!**/
+
+# Block excluded folders
+node_modules/
+
+# Exclude source files
+!src/**/*.ts
+
+# Exclude config files
+!.vscode/**/*.json
+!.gitignore
+!.npmrc
+!.prettierrc.ts
+!Dockerfile
+!eslint.config.ts
+!package-lock.json
+!package.json
+!README.md
+!tsconfig.json
+!tsconfig.prod.json
