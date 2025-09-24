@@ -8,6 +8,7 @@
   "description": "One billion rows challenge implementation in nodejs",
   "type": "module",
   "scripts": {
+    "create-test-file": "node src/create-test-file.ts",
     "test": "node --inspect-wait=12234 src/run.ts",
     "build": "tsc --build --verbose tsconfig.prod.json",
     "lint": "eslint --flag unstable_native_nodejs_ts_config 'src/**/*.ts' eslint.config.ts; tsc --project tsconfig.json"

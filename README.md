@@ -4,7 +4,7 @@
 
 - No external dependencies (may have development ones for eslint and formatting).
 - Each line is built in the following format: `<city>;<temperature>`.
-- Every city may occur `n` amount of times. (modified from up to 10,000)
+- Amount of unique cities is limited to **10,000**
 - Every city **must** start with a capital letter.
 - Every city contains **only** UTF-8 characters.
 - Temperature has **exactly one** fractional digit.
@@ -18,7 +18,6 @@ A file example:
 Hamburg;12.0
 Bulawayo;8.9
 Palembang;38.8
-St. John's;15.2
 Cracow;12.6
 Bridgetown;26.9
 Istanbul;6.2

@@ -9,6 +9,7 @@ node_modules/
 
 # Exclude source files
 !src/**/*.ts
+!assets/list-of-cities
 
 # Exclude config files
 !.vscode/**/*.json
