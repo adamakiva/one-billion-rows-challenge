@@ -24,4 +24,6 @@ Istanbul;6.2
 Roseau;34.4
 Conakry;31.2
 Istanbul;23.0
+...
+...
 ```
